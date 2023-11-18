@@ -3,7 +3,7 @@
 import sys
 import sqlite3
 
-db = sqlite3.connect('history.sqlite3')
+db = sqlite3.connect('ffdata.sqlite3')
 cur = db.cursor()
 
 cur.execute('''

@@ -9,7 +9,7 @@ pattern1 = re.compile(r':[0-9]+}$')
 pattern2a = re.compile(r':[0-9]+}$')
 pattern2b = re.compile(r':[0-9]+}$')
 
-db = sqlite3.connect('history.sqlite3')
+db = sqlite3.connect('ffdata.sqlite3')
 cur = db.cursor()
 
 items = []
